@@ -1,0 +1,614 @@
+{
+  "users": [
+    {
+      "id": "usr_farmer_wb",
+      "role": "farmer",
+      "name": "Subrata Mukherjee",
+      "phone": "9832104567",
+      "email": "subrata.mukherjee@gmail.com",
+      "governmentId": "WB-AAD-8822-4910",
+      "avatarUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "createdAt": "2026-05-10T08:15:00Z"
+    },
+    {
+      "id": "usr_farmer_1",
+      "role": "farmer",
+      "name": "Gurpreet Singh",
+      "phone": "9876543210",
+      "email": "gurpreet.singh@kisanmail.in",
+      "governmentId": "7654-8901-2345",
+      "avatarUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "createdAt": "2026-06-15T09:30:00Z"
+    },
+    {
+      "id": "usr_farmer_2",
+      "role": "farmer",
+      "name": "Rameshwar Patel",
+      "phone": "9822334455",
+      "email": "rameshwar.patel@kisanmail.in",
+      "governmentId": "6543-2109-8765",
+      "avatarUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "createdAt": "2026-07-02T11:20:00Z"
+    },
+    {
+      "id": "usr_admin_1",
+      "role": "admin",
+      "name": "Vikram Deshmukh",
+      "phone": "9811223344",
+      "email": "admin@agriaudit.gov.in",
+      "department": "Department of Agriculture & Farmers Welfare",
+      "designation": "Senior Agri-Audit Nodal Administrator",
+      "createdAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "id": "usr_officer_1",
+      "role": "officer",
+      "name": "Dr. Anita Sharma",
+      "phone": "9899001122",
+      "email": "officer.sharma@agri.gov.in",
+      "department": "State Agricultural Insurance Authority & PMFBY Grievance Redressal",
+      "designation": "Joint Director of Agriculture / Competent Sanctioning Authority",
+      "createdAt": "2026-01-10T08:00:00Z"
+    }
+  ],
+  "farmers": [
+    {
+      "id": "farmer_wb",
+      "userId": "usr_farmer_wb",
+      "name": "Subrata Mukherjee",
+      "phone": "9832104567",
+      "email": "subrata.mukherjee@gmail.com",
+      "governmentId": "WB-AAD-8822-4910",
+      "photoUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "state": "West Bengal",
+      "district": "Purba Bardhaman (Burdwan)",
+      "village": "Memari",
+      "address": "Vill & PO: Memari, Ward 4, Dist: Purba Bardhaman, West Bengal - 713146",
+      "bankDetails": {
+        "accountNo": "2489011029482",
+        "ifsc": "UCBA0000214",
+        "bankName": "UCO Bank",
+        "branch": "Memari Branch",
+        "holderName": "Subrata Mukherjee"
+      },
+      "createdAt": "2026-05-10T08:15:00Z"
+    },
+    {
+      "id": "farmer_1",
+      "userId": "usr_farmer_1",
+      "name": "Gurpreet Singh",
+      "phone": "9876543210",
+      "email": "gurpreet.singh@kisanmail.in",
+      "governmentId": "7654-8901-2345",
+      "photoUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "village": "Sahnewal",
+      "address": "Plot 42, Near Gurudwara Sahib, Sahnewal, District Ludhiana, Punjab - 141120",
+      "bankDetails": {
+        "accountNo": "30491029384",
+        "ifsc": "PUNB0123400",
+        "bankName": "Punjab National Bank",
+        "branch": "Sahnewal Mandi",
+        "holderName": "Gurpreet Singh"
+      },
+      "createdAt": "2026-06-15T09:30:00Z"
+    },
+    {
+      "id": "farmer_2",
+      "userId": "usr_farmer_2",
+      "name": "Rameshwar Patel",
+      "phone": "9822334455",
+      "email": "rameshwar.patel@kisanmail.in",
+      "governmentId": "6543-2109-8765",
+      "photoUrl": "/src/assets/images/indian_farmer_field_1790829345974.jpg",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "village": "Niphad",
+      "address": "Survey 118, Pimpalas Phata, Niphad, Nashik, Maharashtra - 422303",
+      "bankDetails": {
+        "accountNo": "20194857361",
+        "ifsc": "MAHB0000312",
+        "bankName": "Bank of Maharashtra",
+        "branch": "Niphad Branch",
+        "holderName": "Rameshwar Patel"
+      },
+      "createdAt": "2026-07-02T11:20:00Z"
+    }
+  ],
+  "farms": [
+    {
+      "id": "farm_wb",
+      "farmerId": "farmer_wb",
+      "farmerName": "Subrata Mukherjee",
+      "name": "Memari Aman Rice Parcel 1",
+      "khasraSurveyNo": "WB-BUR-412/A",
+      "state": "West Bengal",
+      "district": "Purba Bardhaman (Burdwan)",
+      "village": "Memari",
+      "areaAcres": 5.2,
+      "areaHectares": 2.1,
+      "centerLat": 23.18,
+      "centerLng": 88.11,
+      "polygonCoordinates": [
+        [
+          23.1825,
+          88.1075
+        ],
+        [
+          23.1832,
+          88.1128
+        ],
+        [
+          23.1775,
+          88.1135
+        ],
+        [
+          23.1768,
+          88.1082
+        ]
+      ],
+      "boundaryType": "gps_walk",
+      "createdAt": "2026-05-15T11:00:00Z"
+    },
+    {
+      "id": "farm_1",
+      "farmerId": "farmer_1",
+      "farmerName": "Gurpreet Singh",
+      "name": "Sahnewal Northern Khasra Parcel A",
+      "khasraSurveyNo": "KH-89/14/A",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "village": "Sahnewal",
+      "areaAcres": 4.8,
+      "areaHectares": 1.94,
+      "centerLat": 30.8492,
+      "centerLng": 75.9863,
+      "polygonCoordinates": [
+        [
+          30.8512,
+          75.985
+        ],
+        [
+          30.8518,
+          75.9897
+        ],
+        [
+          30.8475,
+          75.991
+        ],
+        [
+          30.8468,
+          75.9856
+        ]
+      ],
+      "boundaryType": "gps_walk",
+      "reconciliationStatus": "mismatch_detected",
+      "createdAt": "2026-06-20T10:15:00Z"
+    },
+    {
+      "id": "farm_2",
+      "farmerId": "farmer_2",
+      "farmerName": "Rameshwar Patel",
+      "name": "Niphad Grape & Soyabean Parcel 3",
+      "khasraSurveyNo": "SRV-118/3",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "village": "Niphad",
+      "areaAcres": 3.5,
+      "areaHectares": 1.42,
+      "centerLat": 20.0833,
+      "centerLng": 74.1167,
+      "polygonCoordinates": [
+        [
+          20.0855,
+          74.1142
+        ],
+        [
+          20.0862,
+          74.119
+        ],
+        [
+          20.0815,
+          74.1198
+        ],
+        [
+          20.0808,
+          74.115
+        ]
+      ],
+      "boundaryType": "manual",
+      "createdAt": "2026-07-05T14:40:00Z"
+    }
+  ],
+  "policies": [
+    {
+      "id": "pol_wb",
+      "farmerId": "farmer_wb",
+      "provider": "Agriculture Insurance Company of India (AIC)",
+      "scheme": "Bangla Shasya Bima / PMFBY",
+      "policyNumber": "BSB-WB-BUR-2026-003819",
+      "crop": "Paddy (Aman / Basmati)",
+      "season": "Kharif 2026",
+      "insuredAreaAcres": 5.2,
+      "insuredAmountInr": 208000,
+      "premiumInr": 4160,
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "status": "Active"
+    },
+    {
+      "id": "pol_1",
+      "farmerId": "farmer_1",
+      "provider": "Agriculture Insurance Company of India (AIC)",
+      "scheme": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+      "policyNumber": "PMFBY-PB-LDH-2026-004921",
+      "crop": "Paddy (Basmati)",
+      "season": "Kharif 2026",
+      "insuredAreaAcres": 4.8,
+      "insuredAmountInr": 192000,
+      "premiumInr": 3840,
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "status": "Active"
+    },
+    {
+      "id": "pol_2",
+      "farmerId": "farmer_2",
+      "provider": "IFFCO Tokio General Insurance Co.",
+      "scheme": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+      "policyNumber": "PMFBY-MH-NSK-2026-009841",
+      "crop": "Soyabean",
+      "season": "Kharif 2026",
+      "insuredAreaAcres": 3.5,
+      "insuredAmountInr": 140000,
+      "premiumInr": 2800,
+      "startDate": "2026-06-15",
+      "endDate": "2026-12-15",
+      "status": "Active"
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm_1790834706906",
+      "claimNumber": "CLM-2026-3108",
+      "farmerId": "farmer_wb",
+      "farmerName": "Subrata Mukherjee",
+      "farmerPhone": "9832104567",
+      "farmerGovtId": "WB-AAD-8822-4910",
+      "farmBoundaryId": "farm_wb",
+      "farmName": "Memari Aman Rice Parcel 1",
+      "khasraSurveyNo": "WB-BUR-412/A",
+      "insurancePolicyId": "pol_wb",
+      "insurancePolicyNumber": "BSB-WB-BUR-2026-003819",
+      "crop": "Paddy (Basmati)",
+      "season": "Kharif 2026",
+      "damageType": "Flood",
+      "damageDate": "2026-10-01",
+      "description": "Test flood claim",
+      "evidencePhotos": [
+        "/src/assets/images/indian_farmer_field_1790829345974.jpg"
+      ],
+      "claimAmountRequested": 95000,
+      "status": "Submitted",
+      "createdAt": "2026-10-01T06:05:06.906Z",
+      "updatedAt": "2026-10-01T06:05:06.906Z",
+      "satelliteAnalysisAvailable": true,
+      "damagePercentage": 72.4,
+      "mlConfidence": 90.8
+    },
+    {
+      "id": "clm_1",
+      "claimNumber": "CLM-2026-9812",
+      "farmerId": "farmer_1",
+      "farmerName": "Gurpreet Singh",
+      "farmerPhone": "9876543210",
+      "farmerGovtId": "7654-8901-2345",
+      "farmBoundaryId": "farm_1",
+      "farmName": "Sahnewal Northern Khasra Parcel A",
+      "khasraSurveyNo": "KH-89/14/A",
+      "insurancePolicyId": "pol_1",
+      "insurancePolicyNumber": "PMFBY-PB-LDH-2026-004921",
+      "crop": "Paddy (Basmati)",
+      "season": "Kharif 2026",
+      "damageType": "Flood",
+      "damageDate": "2026-08-28",
+      "description": "Severe inundation and crop submergence following continuous 72-hour rainfall and Sutlej basin tributary overflow. 4+ feet standing water for over 5 days resulting in total vegetative root rot.",
+      "evidencePhotos": [
+        "/src/assets/images/indian_farmer_field_1790829345974.jpg"
+      ],
+      "claimAmountRequested": 155000,
+      "status": "Under Verification",
+      "manualVerificationRequired": true,
+      "createdAt": "2026-09-02T14:22:00Z",
+      "updatedAt": "2026-09-18T10:15:00Z",
+      "satelliteAnalysisAvailable": true,
+      "damagePercentage": 74,
+      "mlConfidence": 92
+    },
+    {
+      "id": "clm_2",
+      "claimNumber": "CLM-2026-7451",
+      "farmerId": "farmer_2",
+      "farmerName": "Rameshwar Patel",
+      "farmerPhone": "9822334455",
+      "farmerGovtId": "6543-2109-8765",
+      "farmBoundaryId": "farm_2",
+      "farmName": "Niphad Grape & Soyabean Parcel 3",
+      "khasraSurveyNo": "SRV-118/3",
+      "insurancePolicyId": "pol_2",
+      "insurancePolicyNumber": "PMFBY-MH-NSK-2026-009841",
+      "crop": "Soyabean",
+      "season": "Kharif 2026",
+      "damageType": "Pest",
+      "damageDate": "2026-09-10",
+      "description": "Extensive Spodoptera litura (tobacco caterpillar) outbreak defoliating young pods across central farm sectors. Pesticide spray ineffective due to localized pest density.",
+      "evidencePhotos": [
+        "/src/assets/images/indian_farmer_field_1790829345974.jpg"
+      ],
+      "claimAmountRequested": 60000,
+      "status": "Under Verification",
+      "manualVerificationRequired": true,
+      "createdAt": "2026-09-12T08:50:00Z",
+      "updatedAt": "2026-09-20T11:00:00Z",
+      "satelliteAnalysisAvailable": true,
+      "damagePercentage": 42,
+      "mlConfidence": 87
+    }
+  ],
+  "satelliteData": {
+    "clm_1": {
+      "id": "sat_clm_1",
+      "claimId": "clm_1",
+      "opticalMission": "Sentinel-2A/2B MSI Level-2A",
+      "sarMission": "Sentinel-1A/1B C-SAR Level-1 GRD",
+      "acquisitionDateBefore": "2026-08-10",
+      "acquisitionDateAfter": "2026-09-04",
+      "cloudCoverPct": 2.4,
+      "opticalBeforeUrl": "/src/assets/images/agri_satellite_hero_1790829333061.jpg",
+      "opticalAfterUrl": "/src/assets/images/satellite_sensor_orbit_1790829358471.jpg",
+      "ndviBeforeUrl": "ndvi_pre_flood_high_vigour",
+      "ndviAfterUrl": "ndvi_post_flood_severe_drop",
+      "sarBeforeUrl": "sar_grd_baseline_backscatter",
+      "sarAfterUrl": "sar_grd_specular_flood_inundation",
+      "damageMaskUrl": "mask_damage_74pct",
+      "geePipelineAssetId": "projects/earthengine-agri-audit/sentinel_timeseries/CLM_2026_9812",
+      "spatialResolutionMeters": 10,
+      "spectralBands": [
+        "B2 (Blue)",
+        "B3 (Green)",
+        "B4 (Red)",
+        "B8 (NIR)",
+        "B11 (SWIR)",
+        "VV",
+        "VH"
+      ]
+    },
+    "clm_2": {
+      "id": "sat_clm_2",
+      "claimId": "clm_2",
+      "opticalMission": "Sentinel-2A/2B MSI Level-2A",
+      "sarMission": "Sentinel-1A/1B C-SAR Level-1 GRD",
+      "acquisitionDateBefore": "2026-08-20",
+      "acquisitionDateAfter": "2026-09-14",
+      "cloudCoverPct": 4.1,
+      "opticalBeforeUrl": "/src/assets/images/agri_satellite_hero_1790829333061.jpg",
+      "opticalAfterUrl": "/src/assets/images/satellite_sensor_orbit_1790829358471.jpg",
+      "ndviBeforeUrl": "ndvi_pre_pest_dense",
+      "ndviAfterUrl": "ndvi_post_pest_moderate_loss",
+      "sarBeforeUrl": "sar_grd_baseline_crop",
+      "sarAfterUrl": "sar_grd_post_canopy_thinning",
+      "damageMaskUrl": "mask_damage_42pct",
+      "geePipelineAssetId": "projects/earthengine-agri-audit/sentinel_timeseries/CLM_2026_7451",
+      "spatialResolutionMeters": 10,
+      "spectralBands": [
+        "B2",
+        "B3",
+        "B4",
+        "B8",
+        "B12",
+        "VV",
+        "VH"
+      ]
+    },
+    "clm_1790834706906": {
+      "id": "sat_clm_1790834706906",
+      "claimId": "clm_1790834706906",
+      "opticalMission": "Sentinel-2A/2B MSI Level-2A",
+      "sarMission": "Sentinel-1A/1B C-SAR Level-1 GRD",
+      "acquisitionDateBefore": "2026-09-06",
+      "acquisitionDateAfter": "2026-09-28",
+      "cloudCoverPct": 3.4,
+      "opticalBeforeUrl": "/src/assets/images/agri_satellite_hero_1790829333061.jpg",
+      "opticalAfterUrl": "/src/assets/images/satellite_sensor_orbit_1790829358471.jpg",
+      "ndviBeforeUrl": "ndvi_pre_healthy",
+      "ndviAfterUrl": "ndvi_post_distressed",
+      "sarBeforeUrl": "sar_pre_baseline",
+      "sarAfterUrl": "sar_post_water_inundated",
+      "damageMaskUrl": "mask_damage_72",
+      "geePipelineAssetId": "projects/earthengine-agri-audit/sentinel_timeseries/CLM_2026_3108",
+      "spatialResolutionMeters": 10,
+      "spectralBands": [
+        "B2 (Blue)",
+        "B3 (Green)",
+        "B4 (Red)",
+        "B8 (NIR)",
+        "B11 (SWIR)",
+        "VV",
+        "VH"
+      ]
+    }
+  },
+  "mlAssessments": {
+    "clm_1": {
+      "id": "ml_clm_1",
+      "claimId": "clm_1",
+      "damagePercentage": 74.2,
+      "damagedAreaAcres": 3.56,
+      "totalAreaAcres": 4.8,
+      "mlConfidence": 91.8,
+      "aiApprovalLikelihood": "High",
+      "ndviDeltaAvg": -0.48,
+      "sarBackscatterShiftDb": -8.6,
+      "floodInundationDetected": true,
+      "droughtStressDetected": false,
+      "pestAnomaliesDetected": false,
+      "estimatedYieldLossPct": 82.5,
+      "modelArchitecture": "Sentinel-1/2 Multi-modal Spatiotemporal UNet + Gradient Boosted Crop Calibrator",
+      "summaryNotes": "Severe standing water signature verified via Sentinel-1 C-SAR backscatter attenuation (-8.6 dB drop). Multi-temporal Sentinel-2 MSI confirms steep NDVI collapse from 0.72 (healthy vegetative canopy) to 0.24 (submerged/chlorotic). Loss profile matches PMFBY Section 14.2 localized flood disaster trigger.",
+      "generatedAt": "2026-09-05T06:12:00Z"
+    },
+    "clm_2": {
+      "id": "ml_clm_2",
+      "claimId": "clm_2",
+      "damagePercentage": 42.1,
+      "damagedAreaAcres": 1.47,
+      "totalAreaAcres": 3.5,
+      "mlConfidence": 87.4,
+      "aiApprovalLikelihood": "Moderate",
+      "ndviDeltaAvg": -0.22,
+      "sarBackscatterShiftDb": -1.8,
+      "floodInundationDetected": false,
+      "droughtStressDetected": false,
+      "pestAnomaliesDetected": true,
+      "estimatedYieldLossPct": 45,
+      "modelArchitecture": "Sentinel-1/2 Multi-modal Spatiotemporal UNet + Gradient Boosted Crop Calibrator",
+      "summaryNotes": "Patchy canopy defoliation signature detected primarily in the western sector. Sentinel-2 Red Edge (B5, B6) and NIR (B8) show localized decline in chlorophyll absorbance. Moderate damage profile, partial recovery feasible with targeted pest intervention.",
+      "generatedAt": "2026-09-15T09:44:00Z"
+    },
+    "clm_1790834706906": {
+      "id": "ml_clm_1790834706906",
+      "claimId": "clm_1790834706906",
+      "damagePercentage": 72.4,
+      "damagedAreaAcres": 3.76,
+      "totalAreaAcres": 5.2,
+      "mlConfidence": 90.8,
+      "aiApprovalLikelihood": "High",
+      "ndviDeltaAvg": -0.54,
+      "sarBackscatterShiftDb": -10,
+      "floodInundationDetected": true,
+      "droughtStressDetected": false,
+      "pestAnomaliesDetected": false,
+      "estimatedYieldLossPct": 78.2,
+      "modelArchitecture": "Google Earth Engine Architecture + Multi-modal Spatiotemporal UNet & Sentinel ResNet",
+      "summaryNotes": "Sentinel-2 MSI time series and Sentinel-1 C-SAR backscatter indicate 72.4% damage across 3.76 acres. Spectral NDVI shifted by -0.54 with 90.8% confidence. Recommendation: High likelihood under PMFBY loss thresholds.",
+      "generatedAt": "2026-10-01T06:05:06.907Z"
+    }
+  },
+  "decisions": {},
+  "reconsiderations": [],
+  "notifications": [
+    {
+      "recipientId": "usr_farmer_wb",
+      "recipientRole": "farmer",
+      "title": "Claim Submitted Successfully",
+      "message": "Your claim CLM-2026-3108 for Flood on Paddy (Basmati) has been registered with PMFBY tracking number.",
+      "type": "info",
+      "claimId": "clm_1790834706906",
+      "id": "notif_1790834706915_exap",
+      "read": false,
+      "createdAt": "2026-10-01T06:05:06.915Z"
+    },
+    {
+      "recipientId": "admin_all",
+      "recipientRole": "admin",
+      "title": "New Crop Insurance Claim",
+      "message": "Subrata Mukherjee submitted claim CLM-2026-3108 for Flood damage on Paddy (Basmati).",
+      "type": "info",
+      "claimId": "clm_1790834706906",
+      "id": "notif_1790834706915_jcre",
+      "read": false,
+      "createdAt": "2026-10-01T06:05:06.915Z"
+    },
+    {
+      "id": "notif_1",
+      "recipientId": "usr_farmer_1",
+      "recipientRole": "farmer",
+      "title": "Claim Status Updated",
+      "message": "Your claim CLM-2026-9812 has progressed to Government Review stage.",
+      "type": "info",
+      "claimId": "clm_1",
+      "read": false,
+      "createdAt": "2026-09-18T10:15:00Z"
+    },
+    {
+      "id": "notif_2",
+      "recipientId": "usr_admin_1",
+      "recipientRole": "admin",
+      "title": "New High Damage Claim Submitted",
+      "message": "Claim CLM-2026-9812 (Gurpreet Singh) exhibits 74.2% verified damage from Sentinel satellite pipeline.",
+      "type": "alert",
+      "claimId": "clm_1",
+      "read": true,
+      "createdAt": "2026-09-05T06:15:00Z"
+    },
+    {
+      "id": "notif_3",
+      "recipientId": "usr_officer_1",
+      "recipientRole": "officer",
+      "title": "High Confidence Claim Awaiting Sanction",
+      "message": "Claim CLM-2026-9812 (Ludhiana, Punjab) submitted with High AI Approval Likelihood for flood damage.",
+      "type": "warning",
+      "claimId": "clm_1",
+      "read": false,
+      "createdAt": "2026-09-18T10:20:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorId": "usr_farmer_wb",
+      "actorName": "Subrata Mukherjee",
+      "actorRole": "farmer",
+      "action": "CLAIM_SUBMITTED",
+      "entityType": "claim",
+      "entityId": "clm_1790834706906",
+      "details": "New claim CLM-2026-3108 submitted for Paddy (Basmati) (Flood). Requested: ₹95,000.",
+      "id": "aud_1790834706915_pylo",
+      "timestamp": "2026-10-01T06:05:06.915Z"
+    },
+    {
+      "actorId": "system",
+      "actorName": "Google Earth Engine Pipeline",
+      "actorRole": "system",
+      "action": "SATELLITE_ANALYSIS_COMPLETED",
+      "entityType": "satellite",
+      "entityId": "clm_1790834706906",
+      "details": "Google Earth Engine processing completed for CLM-2026-3108. Damage assessed: 72.4% with 90.8% confidence.",
+      "id": "aud_1790834706907_j5wr",
+      "timestamp": "2026-10-01T06:05:06.907Z"
+    },
+    {
+      "id": "aud_1",
+      "timestamp": "2026-09-02T14:22:00Z",
+      "actorId": "usr_farmer_1",
+      "actorName": "Gurpreet Singh",
+      "actorRole": "farmer",
+      "action": "CLAIM_SUBMITTED",
+      "entityType": "claim",
+      "entityId": "clm_1",
+      "details": "Claim CLM-2026-9812 submitted for Paddy crop in Sahnewal under PMFBY policy PMFBY-PB-LDH-2026-004921."
+    },
+    {
+      "id": "aud_2",
+      "timestamp": "2026-09-05T06:12:00Z",
+      "actorId": "system",
+      "actorName": "Google Earth Engine & ML Pipeline",
+      "actorRole": "system",
+      "action": "SATELLITE_ANALYSIS_COMPLETED",
+      "entityType": "satellite",
+      "entityId": "clm_1",
+      "details": "Sentinel-2 (MSI) and Sentinel-1 (C-SAR) acquisitions paired. Damage assessed at 74.2% with 91.8% confidence."
+    },
+    {
+      "id": "aud_3",
+      "timestamp": "2026-09-18T10:15:00Z",
+      "actorId": "usr_admin_1",
+      "actorName": "Vikram Deshmukh",
+      "actorRole": "admin",
+      "action": "ADMIN_VERIFICATION_FORWARDED",
+      "entityType": "claim",
+      "entityId": "clm_1",
+      "details": "Admin reviewed satellite NDVI collapse and SAR flood masks. Forwarded dossier to Government Sanctioning Authority."
+    }
+  ]
+}

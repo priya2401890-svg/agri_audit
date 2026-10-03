@@ -1,0 +1,11 @@
+{
+  "name": "Agri-Audit",
+  "description": "India-focused satellite and AI-assisted crop insurance verification platform connecting Farmers, Admins and Government Officers.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
